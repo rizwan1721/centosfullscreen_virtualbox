@@ -1,0 +1,9 @@
+Check ip add
+vi /etc/sysconfig/network-scripts/ifcfg-enp0s8  
+        DNS1=10.0.2.2 
+        DNS2=8.8.8.8
+ # systemctl restart NetworkManager
+yum search redis
+vi /etc/yum.repos.d/CentOS-Base.repo
+Look for the [base] section, try uncommenting the baseurl by removing the leading # on the baseurl line as shown in the following screenshot.
+
